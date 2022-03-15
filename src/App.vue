@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Header from './components/SpotiHeader.vue'
-import Main from './components/SpotiMain.vue'
+import Header from './components/SpotifyHeader.vue'
+import Main from './components/SpotifyMain.vue'
 export default {
   name: 'App',
   components: {
