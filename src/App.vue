@@ -1,25 +1,33 @@
 <template>
   <div id="app">
-    <SpotifyHeader />
+    <Header />
+    <Main />
   </div>
 </template>
 
 <script>
-import SpotifyHeader from './components/SpotifyHeader.vue'
-
+import Header from './components/SpotiHeader.vue'
+import Main from './components/SpotiMain.vue'
 export default {
   name: 'App',
   components: {
-    SpotifyHeader
+    Header,
+    Main,
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  color: #2c3e50;
 }
 </style>
